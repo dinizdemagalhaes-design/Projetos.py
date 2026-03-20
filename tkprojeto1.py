@@ -27,3 +27,5 @@ label_centro.pack(expand=True)
 # Frame inferior 
 frame_inferior = tk.Frame(janela, bg="yellow")
 frame_inferior.grid(row=1, column=1, sticky="nsew")
+
+janela.mainloop()
