@@ -64,4 +64,3 @@ button.place(relx=0.75, rely=0.5, relwidth=0.3, relheight=0.7, anchor="center")
 
 
 root.mainloop()
-root.mainloop()
