@@ -19,9 +19,10 @@ def add_tasks():
 
     if tasks_text:
         task_var= tk.BooleanVar()
+
         task_check = tk.Checkbutton( main_frame,text=tasks_text,variable=task_var,font=("Arial", 12),bg="grey",anchor="w")
-        task_check.place(relx=0.05,rely=task_rely,relwidth=0.80,relheight=0.06) 
-        tasks.append(tasks_text, task_var, task_check)
+        task_check.place(relx=0.05,rely=tasks_rely,relwidth=0.80,relheight=0.06) 
+        tasks.append((tasks_text, task_var, task_check))
         task_rely += 0.07
         task_entry.delete(0, tk.END) 
 
